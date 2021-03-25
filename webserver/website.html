@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+			<style>
+				body {
+					background-color: black;
+					color: white;
+				}
+				.container .btn {
+					position: static;
+					width: 100px;
+					height: 50px;
+					cursor: pointer;
+				}
+				.tit {
+					text-align: center;
+				}
+				.ltit {
+					text-align: left;
+				}
+				.mirror{
+					-webkit-transform: scaleX(-1);
+					transform: scaleX(-1);
+				}
+				.mirro{
+					-webkit-transform: rotate(90deg);
+					-moz-transform: rotate(90deg);
+					-o-transform: rotate(90deg);
+					-ms-transform: rotate(90deg);
+					transform: rotate(90deg);
+				}
+				.mirr{
+					-webkit-transform: rotate(-90deg);
+					-moz-transform: rotate(-90deg);
+					-o-transform: rotate(-90deg);
+					-ms-transform: rotate(-90deg);
+					transform: rotate(-90deg);
+				}
+				.righ{
+					
+					float: right;
+				}
+				.lef{
+					float: left;
+				}
+				.up{
+					position: absolute;
+					top: 10%;
+					right: 47%;
+				}
+				.rig{
+					position: absolute;
+					top: 30%;
+					right: 32%;
+				}
+				.down{
+					position: absolute;
+					top: 50%;
+					right: 47%;
+				}
+				.le{
+					position: absolute;
+					top: 30%;
+					right: 60%;
+				}
+				.tcenter{
+					text-align: center;
+				}
+				.grab{
+					position: absolute;
+					top: 31%;
+					right: 47%;
+					background-color: #e0331f;
+				}
+				
+		</style>
+	</head>
+	<body>
+		<p><h1 class="tit">ESP8266 Arm</h1></p>
+		<div class="container righ">
+			<h2 class="ltit"></h2>
+			<a href="R">
+				<input type="image" src="https://cdn.discordapp.com/attachments/374955767880613891/805020466821201950/piros-nyil-220x300.png" name="right" class="btn mirror" id="saveForm" />
+			</a>
+		</div>
+		<div class="container lef">
+			<h2 class="ltit"></h2>
+			<a href="L">
+				<input type="image" src="https://cdn.discordapp.com/attachments/374955767880613891/805020466821201950/piros-nyil-220x300.png" name="left" class="btn" id="saveForm" />
+			</a>
+		</div>
+		<div class="container up">
+			<h2 class="ltit tcenter"></h2>
+			<a href="U">
+				<input type="image" src="https://pngimg.com/uploads/red_arrow/red_arrow_PNG60.png" name="up" class="btn mirro" id="saveForm" />
+			</a>
+		</div>
+		<div class="container rig">
+			<a href="F">
+				<input type="image" src="https://pngimg.com/uploads/red_arrow/red_arrow_PNG60.png" name="up" class="btn mirror" id="saveForm" />
+			</a>
+			<h2 class="ltit tcenter"></h2>
+		</div>
+		<div class="container down">
+			<a href="D">
+				<input type="image" src="https://pngimg.com/uploads/red_arrow/red_arrow_PNG60.png" name="up" class="btn mirr" id="saveForm" />
+			</a>
+			<h2 class="ltit tcenter"></h2>
+			
+		</div>
+		<div class="container le">
+			<a href="B">
+				<input type="image" src="https://pngimg.com/uploads/red_arrow/red_arrow_PNG60.png" name="up" class="btn" id="saveForm" />
+			</a>
+			<h2 class="ltit tcenter"></h2>
+		</div>
+		<div class="container grab">
+			<a href="C">
+				<button type="button" class="btn grab"></button>
+			</a>
+		</div>
+	</body>
+</html>
